@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const ListModel = require('./model/List')
-
+console.log(express);
 const app = express();
 const PORT = process.env.PORT || 5000;
 

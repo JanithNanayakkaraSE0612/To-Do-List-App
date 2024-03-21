@@ -33,7 +33,7 @@ const Create = () => {
   const [currentDate, setCurrentDate] = useState(getDate());
   return (
     <div className='d-flex vh-100 bg-secondary  justify-content-center align-items-center  '>
-        <div className='w-50 bg-white rounded p-3'>
+        <div className='w-48 bg-white rounded p-3'>
           <form onSubmit={Add}>
             <div className='mb-4'>
             <Link to='/' className='text-black text-decoration-none  '>Cancel</Link>
