@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <Navbar className="bg-white ">
     <Container>
-      <Navbar.Brand>todo</Navbar.Brand>
+     
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
-        <Navbar.Text className='m-5'>
+        <Navbar.Text className='m-2'>
          <Link to='/create' className=''>
             <IoMdAdd size={40}/>
         </Link>

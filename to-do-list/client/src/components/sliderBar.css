@@ -1,0 +1,28 @@
+.sidebar_menu{
+	position: fixed;
+  	top: 65px;
+  	left: 0;
+  	background:white;
+  	width: 250px;
+  	height: 100%;
+  	transition: all 0.3s linear;
+}
+
+.sidebar_menu .inner__sidebar_menu{
+	position: relative;
+	padding-top: 60px;
+}
+
+.sidebar_menu ul li {
+    color: black;
+    font-size: 18px;
+    padding: 20px 35px;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+
+  }
+
+
+  
+ 
