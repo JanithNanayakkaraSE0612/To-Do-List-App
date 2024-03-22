@@ -10,7 +10,7 @@ const Post = () => {
         <div className="item">
             <div>
             <h3>The First task Title</h3>
-            <Link to='/select' className='float-end'>
+            <Link to='/select' className='float-end '>
                      <BsThreeDots />
             </Link>
             </div>
