@@ -1,6 +1,6 @@
 .container{
 	width: calc(100% - 250px);
-	margin-top: 65px;
+	margin-top: 10px;
 	margin-left: 250px;
 	padding: 25px 40px;
 	transition: all 0.3s linear;

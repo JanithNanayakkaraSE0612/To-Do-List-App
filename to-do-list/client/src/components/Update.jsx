@@ -39,7 +39,7 @@ const Update = () => {
         <form onSubmit={Update}>
             <h2>Update List</h2>
             <div className='mb-4'>
-                 <Link to='/' className='text-black text-decoration-none  '>Cancel</Link>
+                 <Link to='/select/' className='text-black text-decoration-none  '>Cancel</Link>
                  <button className='btn btn-secondary btn-md float-end   '>Update</button>
                  </div>
                  <div className='mb-2'>

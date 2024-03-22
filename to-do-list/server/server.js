@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const DB_URL = 'mongodb+srv://janith:todolistApp@todo.9nhg6lb.mongodb.net/todo?retryWrites=true&w=majority&appName=todo'
+const DB_URL = 'mongodb+srv://janith:todolistApp@user.badthcc.mongodb.net/todo?retryWrites=true&w=majority&appName=user'
 
 //get List 
 app.get('/',(req,res)=>{
@@ -37,8 +37,9 @@ app.post('/create',(req,res)=>{
 
 app.put('/update/:id',(req,res)=>{
     const id = req.params.id;
-    // ListModel.findByIdAndUpdate({_id:id},(title:req.body.title,))
-    // .then(list => res.json(list))
+    ListModel.findByIdAndUpdate({_id:id},(title:req.body.title, description:req.body.description))
+    .then(list => res.json(list))
+    .catch(err=> res.json(err))
 })
 
 //delete list
